@@ -1,7 +1,10 @@
+import Navbar from "../components/navbar";
+
 const Index = () => (
     <div>
-        <h1>Welcome to BitzPrice</h1>
+        <Navbar/>
+        <h1>Welcome to BitzPrice prices</h1>
     </div>
-    );
+);
 
 export default Index;
